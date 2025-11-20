@@ -1,0 +1,25 @@
+create database ss;
+use database ss;
+create table students ( name, age, branch );
+insert into students VALUES ( John , 20, CSE );
+insert into students (name , age ) VALUES ( Alice, 21);
+insert into students (name , age ) values ( Alice, 29);
+insert into students (name , branch ) values (mahi, meta);
+select name, age from students
+select * from students
+
+where is not working properly do needful
+
+> insert into nari ( id, age) values (
+>>> (8 , 100),
+>>> (9, 1999));
+insert into nari ( id, age) values ( ( 9, 1000) , (89, 1));
+SELECT * FROM students WHERE age = 20;
+SELECT name, branch FROM students WHERE age = 20;
+
+
+$$ 
+have to implement Insert data
+data types for columns (becomes really difficult )
+i mean because in row we are treating everything as string;
+$$

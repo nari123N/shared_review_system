@@ -1,0 +1,23 @@
+create database ss;
+use database ss;
+
+create table students ( name, 
+     age,
+     branch );
+insert into students VALUES ( John , 
+20, CSE );
+insert into students (name , age ) VALUES ( Alice, 21);
+insert into students (name , age ) values ( Alice, 29);
+insert into students (name , branch ) values (mahi, meta);
+create database mahi;
+
+insert into students (name , age ) values ( Alice, 99);
+select name, age from students;use database mahi;
+
+create table nari ( name, id, age);
+
+insert into nari values ((c,1,11), (b, 2, 12), (c, 3, 13));
+
+insert into nari (name , id) values ((d, 4) , (e, 5) , );
+
+select * from nari;
